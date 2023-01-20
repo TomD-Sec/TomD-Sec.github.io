@@ -2,6 +2,7 @@
 title: "Blog: Building my first website with Hugo!"
 date: 2022-10-11T18:06:18+01:00
 coverSize: partial
+thumbnailImage: images/29385237.png
 categories:
 - blog
 

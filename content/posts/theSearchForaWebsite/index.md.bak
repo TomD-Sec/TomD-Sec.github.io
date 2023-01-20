@@ -2,6 +2,7 @@
 title: "Blog: Building my first website with Hugo!"
 date: 2022-10-11T18:06:18+01:00
 coverSize: partial
+thumbnailImage: (images/29385237.png)
 categories:
 - blog
 
@@ -13,7 +14,7 @@ keywords:
 ---
 
 
-![Source: GoHugo.io Github](static/images/29385237.png)
+![Source: GoHugo.io Github](images/29385237.png)
 
 
 After weeks of deliberation, I finally made the decision to start up a website. This will likely contain some little blogs and write-ups on various projects and milestones I work towards.  

@@ -2,6 +2,7 @@
 title: "Blog: Getting my Security+ without the reccomended experience"
 date: 2022-10-11T18:06:18+01:00
 coverSize: partial
+thumbnailImage: images/SECURITY-PIC.png
 categories:
 - blog
 - cyber
