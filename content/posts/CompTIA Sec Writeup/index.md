@@ -1,7 +1,6 @@
 ---
 title: "Blog: Getting my Security+ without the reccomended experience"
 date: 2022-10-11T18:06:18+01:00
-draft: true
 coverSize: partial
 categories:
 - blog
@@ -14,7 +13,7 @@ keywords:
 
 ---
 
-![Source: Fortray](images/SECURITY-PIC.png)
+![Image alt Source: Fortray](images/SECURITY-PIC.png)
 
 
 After failing my driving test in November 2020 and unable to take more lessons due to the COVID lockdown I wanted something I could strive towards and attain in the time I found myself isolated. On a hunch I looked up the CompTIA Security+ a certification I regularly saw mentioned in online InfoSec spaces. To my surprise I found a video course from Total Seminars on sale on Udemy, and decided to take the plunge. Rather conveniently I then received Jury duty (it is quite ironic I had it within my first 6 months working full time during my industry placement gap year). So sat on the bus marinating in my driving test failure for two weeks and two hours daily round trip - on freezing winter mornings (with the windows open because of COVID too!) I watched the videos.  

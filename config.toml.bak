@@ -1,11 +1,11 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://TomD-Sec.github.io'
 languageCode = 'en-us'
 title = 'Thomas Davey-Spence'
 theme = 'tranquilpeak'
 
 [author]
  name = "Thomas Davey-Spence"
- bio = "Placeholder!"
+ bio = "Software engineer, costume maker & general annoyance."
  job = "Cloud & Software Engineer working in Cyber Security"
  location = "Midlands, United Kingdom"
  gravatarEmail = ""
@@ -14,13 +14,12 @@ theme = 'tranquilpeak'
 
 
 [params]
-  sidebarBehavior = 0
+  sidebarBehavior = 4
   thumbnailImage = true
   thumbnailImagePosition = "right"
   autoThumbnailImage = true
   coverImage = "images/cover.jpeg"
   favicon = "images/favicon.ico"
-  imageGallery = false
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
     [[params.sharingOptions]]
