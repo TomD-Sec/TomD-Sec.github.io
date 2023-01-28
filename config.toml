@@ -1,4 +1,4 @@
-baseURL = 'https://TomD-Sec.github.io'
+baseURL = 'http://thomas-davey-sec.com/'
 languageCode = 'en-us'
 title = 'Thomas Davey-Spence'
 theme = 'tranquilpeak'
