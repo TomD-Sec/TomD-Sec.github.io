@@ -1,6 +1,6 @@
 ---
 title: "Blog: A Review of Mimo's Web Development Course"
-date: 2023-04-02T15:06:18+01:00
+date: 2023-02-04T14:58:18+01:00
 coverSize: partial
 thumbnailImage: images/link_image_twitter.png
 categories:
