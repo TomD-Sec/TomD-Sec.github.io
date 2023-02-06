@@ -1,0 +1,37 @@
+---
+title: "Blog: My experience with the AZ-900: Tips & Review"
+date: 2023-02-11T18:06:18+01:00
+coverSize: partial
+ThumbnailImage: images/AZ900Thumb.jpeg
+categories:
+- blog
+- cloud
+
+keywords:
+- Azure
+- cloud
+- Blog
+
+---
+
+![Image alt Source: https://github.com/topics/az-900](<images/65b3d080-9d02-11ea-93d5-02447651f6a3 (1).jpeg>)
+
+In January 2022 I pursued another certification at university, it should be noted that I did not pay for this certification, I instead received it as part of the Microsoft University Cloud Challenge so did not have to pay out of pocket for it. 
+
+I began studying for the AZ-900 in November 2021, making usage of the Microsoft Learn resources provided for free, I chose to re-use the methods I used for my Security+ for this certification. Starting initially by reading through the resources and highlighting key points. Once this had been completed for the entire library of learning resources, I made usage of AnkiDroid again, creating an assortment of virtual flash cards for each key point I had highlighted. The flash cards focused on an assortment of question types, true/false, definitions and Questions & Answers. 
+
+
+![Image alt: Screenshot of the Anki Add View ](<images/2023-02-06 20_10_43-User 1 - Anki.png>)
+
+After creating my 200 or so flash cards, I then move to what I call the “Long Term Retainment” stage, this serves multiple purposes, not just for helping me retain for the final exam, but also to retain the knowledge beyond the exam. Having a certification is useless if you forget the contents of said certification the second the exam is over. Using the flash card system I write my cards, and then rate the cards according to how difficult I found the card, which then determines when the card will next appear. As you become more confident the number of cards you study per day decreases as the length of time it takes a card to reappear for studying increases. Once I have performed this to the level I get 10-20 cards a day I move to practice exam questions. Focusing initially on recalling and understanding the question. 
+
+Once I feel confident on understanding and answering questions, I move onto full test exams. If you wish to follow this method, I recommend ensuring you have plenty of questions to answer to reduce the chance of simply remembering what the answer to a question is, rather than using your critical thinking skills to answer the question properly. Once I am able to complete 3 test exams to a good standard, it is time to book a time for the final exam. 
+
+I then revert back to the study/practice question phase at an increased interval, practicing the full set of cards as often as possible and answering a minimum of 20 questions a day up until the final exam. 
+
+
+![Image alt: Screenshot of an anki card](<images/2023-02-06 20_10_00-Settings.png>)
+
+Overall, I found the Azure-900 resources were helpful, they covered a good amount of information to cover the basics of Azure usage, such as what you can do, how much it can cost, automation, security, analytics & cost management. I did feel that the resources could be lengthy at times. I find my mind generally works better for short amounts of information spread over large amounts, rather than several page long tutorials which I find can be difficult to maintain focus throughout.  
+
+The exam and practice questions were a comfortable level of difficulty, not easy but not hair-pulingly hard either. I would recommend the AZ-900 if you’re looking to get into the basics of Azure and Cloud technologies, but as with any certification, see if your school or employer can pay for it for you first.  
