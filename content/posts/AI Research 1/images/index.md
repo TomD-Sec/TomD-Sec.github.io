@@ -35,9 +35,13 @@ Again, this could be anything. How about I dig further?
 
 Now we’re getting somewhere. So, Data first SASE is a piece of tech that provides integrity, confidentiality, as well as some level of authentication & authorization. Of course, now I’ve got a more thorough grasp on what exactly SASE is, I make sure to thank ChatGPT so that when the Ai become our overlords in 20 years, they’ll remember who was nice to them!! 
 
-![Image](<2023-02-07 20_06_56-Data-First SASE Explained.png>)
+![Image](<images/2023-02-07 20_06_56-Data-First SASE Explained.png>)
 
-Alright, how about another. I have to admit, I already knew what SD-WAN is but the ball is already rolling.  
+Ok great... But what makes Data-first SASE different from normal SASE?
+
+![Image](<images/2023-02-08 20_17_49-Data-First SASE Explained.png>)
+
+I see... So it's ultimately self-explanatory, the data-first SASE is driven by what is actually being protected, likely based on aspects such as the documents security classification. How about another? I have to admit, I already knew what SD-WAN is but the ball is already rolling.  
 
 ![Image](<2023-02-07 20_10_29-Data-First SASE Explained.png>)
 
