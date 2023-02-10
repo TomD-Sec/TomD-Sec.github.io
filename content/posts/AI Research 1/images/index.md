@@ -15,13 +15,13 @@ keywords:
 ---
 
 
-I’m sure we’ve all been there before... New to a company, sat in a long all-hands meeting listening to the C-Suite give their lingo filled presentations, fingers ready at google to try and decipher what is actually being presented... Often with mixed results. 
+I’m sure we’ve all been there before... Sat in a webinar or meeting where people are discussing tech you've absolutely never heard of, you google it and still don't understand what it does...
 
 But what if we could use a certain revolutionary new bit of tech to explain it to us in a way anyone, even a 5-year-old could understand? Well, that’s what I decided to have a go with. 
 
 ![Image](<2023-02-07 20_05_54-Data-First SASE Explained.png>)
 
-First up a piece of tech that my employers are very fond of and I’m told is excellent, Data-first SASE, I of course upon first hearing it set to google to find out what it was, which gave me an answer I didn’t really understand, so this is one I was eager to hear. 
+First up a piece of tech that I struggled to understand more than I probably should of Data-first SASE.
 
 ![Image](<2023-02-07 20_06_14-Data-First SASE Explained.png>)
 
