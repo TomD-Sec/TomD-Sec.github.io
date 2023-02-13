@@ -14,7 +14,7 @@ keywords:
 
 ---
 
-![Image alt Source: getmimo.com](images/link_image_twitter.png)
+![Image alt Source: getmimo.com](link_image_twitter.png)
 
 Mimo Web Development Path Review 
 
@@ -29,7 +29,7 @@ The web development course is nicely split apart to ease you into it if you are 
 Next up we move onto styles with CSS, covering our box models, colours, classes, inheritance and functions. I found CSS a steeper learning curve than HTML, perhaps because CSS was alien to me, as designing web pages is not something I had not done before, but I felt that Mimo gave me a strong foundation to further my understanding of CSS when the need may arise on the job.  
 
 
-![Image alt Source: getmimo.com](images/mimo-lesson.png)
+![Image alt Source: getmimo.com](mimo-lesson.png)
 
 
 Next up JavaScript, which couldn’t have come at a better time as I found myself working on TypeScript at work. Here I found that the Mimo course directly assisted me in improving the TypeScript I wrote at work by teaching me JavaScript (TypeScript is essentially JavaScript with types to give developers an easier time debugging for those who may not know). I found the courses on Object Oriented Program especially helpful, as previously during my Cyber Security Course we had mainly been taught Functional Programming and OOP has been something I rarely touched. But Mimo finally gave me the confidence to start incorporating OOP at a deeper level into my code, resulting in my code running faster, and becoming significantly more readable.  
