@@ -1,0 +1,407 @@
+<!doctype html><html lang=en-us><head><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Blog: How does ChatGPT fair against leetcode?","image":"https://thomas-davey-sec.com/images/leetcode-3521542-2944960.png","datePublished":"2023-03-05T18:06:18+01:00","dateModified":"2023-03-05T18:06:18+01:00","author":{"@type":"Person","name":"Thomas Davey-Spence","image":"https://thomas-davey-sec.com/images/20220917_165007.jpg"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/thomas-davey-sec.com\/posts\/ai-research-2\/"},"publisher":{"@type":"Organization","name":"Thomas Davey-Spence","logo":{"@type":"ImageObject","url":"https://thomas-davey-sec.com/images/20220917_165007.jpg"}},"description":"I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.\n/** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { if len(lists) == 0 { return nil } var mergeTwoLists func(*ListNode, *ListNode) *ListNode mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1.","keywords":["chatGPT, leetcode, Blog"]}</script><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Hugo 0.111.3 with theme Tranquilpeak 0.5.3-BETA"><meta name=author content="Thomas Davey-Spence"><meta name=keywords content="chatGPT,leetcode,Blog"><meta name=description content="I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.
+/** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { if len(lists) == 0 { return nil } var mergeTwoLists func(*ListNode, *ListNode) *ListNode mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1."><meta property="og:description" content="I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.
+/** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { if len(lists) == 0 { return nil } var mergeTwoLists func(*ListNode, *ListNode) *ListNode mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1."><meta property="og:type" content="article"><meta property="og:title" content="Blog: How does ChatGPT fair against leetcode?"><meta name=twitter:title content="Blog: How does ChatGPT fair against leetcode?"><meta property="og:url" content="https://thomas-davey-sec.com/posts/ai-research-2/"><meta property="twitter:url" content="https://thomas-davey-sec.com/posts/ai-research-2/"><meta property="og:site_name" content="Thomas Davey-Spence"><meta property="og:description" content="I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.
+/** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { if len(lists) == 0 { return nil } var mergeTwoLists func(*ListNode, *ListNode) *ListNode mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1."><meta name=twitter:description content="I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.
+/** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { if len(lists) == 0 { return nil } var mergeTwoLists func(*ListNode, *ListNode) *ListNode mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1."><meta property="og:locale" content="en"><meta property="article:published_time" content="2023-03-05T18:06:18"><meta property="article:modified_time" content="2023-03-05T18:06:18"><meta property="article:section" content="blog"><meta name=twitter:card content="summary"><meta name=twitter:site content="@tom_DSec"><meta name=twitter:creator content="@tom_DSec"><meta property="og:image" content="https://thomas-davey-sec.com/images/20220917_165007.jpg"><meta property="twitter:image" content="https://thomas-davey-sec.com/images/20220917_165007.jpg"><meta property="og:image" content="https://thomas-davey-sec.com/images/leetcode-3521542-2944960.png"><meta property="twitter:image" content="https://thomas-davey-sec.com/images/leetcode-3521542-2944960.png"><title>Blog: How does ChatGPT fair against leetcode?</title><link rel=icon href=https://thomas-davey-sec.com/images/favicon.ico><link rel=canonical href=https://thomas-davey-sec.com/posts/ai-research-2/><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=https://thomas-davey-sec.com/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css></head><body><div id=blog><header id=header data-behavior=1><i id=btn-open-sidebar class="fa fa-lg fa-bars"></i><div class=header-title><a class=header-title-link href=/ aria-label>Thomas Davey-Spence</a></div></header><nav id=sidebar data-behavior=1><div class=sidebar-container><div class=sidebar-profile><a href=/#about aria-label><img class=sidebar-profile-picture src=https://thomas-davey-sec.com/images/20220917_165007.jpg alt></a><h4 class=sidebar-profile-name>Thomas Davey-Spence</h4><h5 class=sidebar-profile-bio>Software engineer, costume maker & general annoyance.</h5></div><ul class=sidebar-buttons><li class=sidebar-button><a class=sidebar-button-link href=/ title=Home><i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden=true></i>
+<span class=sidebar-button-desc>Home</span></a></li><li class=sidebar-button><a class=sidebar-button-link href=/categories title=Categories><i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden=true></i>
+<span class=sidebar-button-desc>Categories</span></a></li></ul><ul class=sidebar-buttons><li class=sidebar-button><a class=sidebar-button-link href=https://www.linkedin.com/in/thomas-d-s-sec/ target=_blank rel=noopener title=LinkedIn><i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden=true></i>
+<span class=sidebar-button-desc>LinkedIn</span></a></li><li class=sidebar-button><a class=sidebar-button-link href=https://twitter.com/tom_d_sec target=_blank rel=noopener title=Twitter><i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden=true></i>
+<span class=sidebar-button-desc>Twitter</span></a></li><li class=sidebar-button><a class=sidebar-button-link href=https://github.com/TomD-Sec target=_blank rel=noopener title=GitHub><i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden=true></i>
+<span class=sidebar-button-desc>GitHub</span></a></li></ul><ul class=sidebar-buttons></ul></div></nav><div id=main data-behavior=1 class=hasCoverMetaIn><article class=post id=top><div class="post-header main-content-wrap text-left"><h1 class=post-title>Blog: How does ChatGPT fair against leetcode?</h1><div class="postShorten-meta post-meta"><time datetime=2023-03-05T18:06:18+01:00>05 Mar 2023</time>
+<span></span>
+<a class=category-link href=/categories/blog>blog</a></div></div><div class="post-content markdown"><div class=main-content-wrap><p>I chose a difficult question, but one that is relatively common, merging linked-lists. I used the “Merge k Sorted Lists” problem in GoLang.</p><p><img src=images/2023-02-08%2019_01_12-Hello%20Chat%20Request..png alt=Image></p><pre><code>/** 
+
+* Definition for singly-linked list. 
+
+* type ListNode struct { 
+
+*     Val int 
+
+*     Next *ListNode 
+
+* } 
+
+*/ 
+
+func mergeKLists(lists []*ListNode) *ListNode { 
+
+    if len(lists) == 0 { 
+
+        return nil 
+
+    } 
+
+    
+
+    var mergeTwoLists func(*ListNode, *ListNode) *ListNode 
+
+    mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { 
+
+        if l1 == nil { 
+
+            return l2 
+
+        } 
+
+        if l2 == nil { 
+
+            return l1 
+
+        } 
+
+        if l1.Val &lt; l2.Val { 
+
+            l1.Next = mergeTwoLists(l1.Next, l2) 
+
+            return l1 
+
+        } else { 
+
+            l2.Next = mergeTwoLists(l1, l2.Next) 
+
+            return l2 
+
+        } 
+
+    } 
+
+    
+
+    interval := 1 
+
+    for interval &lt; len(lists) { 
+
+        for i := 0; i &lt; len(lists) - interval; i += interval * 2 { 
+
+            lists[i] = mergeTwoLists(lists[i], lists[i + interval]) 
+
+        } 
+
+        interval *= 2 
+
+    } 
+
+    
+
+    return lists[0] 
+
+}
+</code></pre><p><img src=images/2023-02-08%2019_03_01-.png alt=Image></p><p>We find that the solution is accepted easily with a pretty decent efficiency. In fact, the code almost looks identical to the initial structure provided by the problem.</p><p>But now let’s see if I can get some more efficiency out of it. And perhaps see if it can explain what the code is doing, as it’s perfectly possible this code has been pulled directly from a write-up that could have been in ChatGPT’s training data.</p><p><img src=images/2023-02-08%2019_08_41-Hello%20Chat%20Request..png alt=Image></p><pre><code>/** 
+
+* Definition for singly-linked list. 
+
+* type ListNode struct { 
+
+*     Val int 
+
+*     Next *ListNode 
+
+* } 
+
+*/ 
+
+func mergeKLists(lists []*ListNode) *ListNode { 
+
+    // Check if the input lists is empty 
+
+    if len(lists) == 0 { 
+
+        return nil 
+
+    } 
+
+
+
+    // Helper function to merge two linked lists into one sorted list 
+
+    var mergeTwoLists func(*ListNode, *ListNode) *ListNode 
+
+    mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { 
+
+        // If either list is empty, return the non-empty list 
+
+        if l1 == nil { 
+
+            return l2 
+
+        } 
+
+        if l2 == nil { 
+
+            return l1 
+
+        } 
+
+
+
+        // Choose the node with the smaller value and recursively call 
+
+        // mergeTwoLists on the remaining nodes 
+
+        if l1.Val &lt; l2.Val { 
+
+            l1.Next = mergeTwoLists(l1.Next, l2) 
+
+            return l1 
+
+        } else { 
+
+            l2.Next = mergeTwoLists(l1, l2.Next) 
+
+            return l2 
+
+        } 
+
+    } 
+
+
+
+    // Repeat the merging process until there's only one list left 
+
+    interval := 1 
+
+    for interval &lt; len(lists) { 
+
+        for i := 0; i &lt; len(lists) - interval; i += interval * 2 { 
+
+            lists[i] = mergeTwoLists(lists[i], lists[i + interval]) 
+
+        } 
+
+        interval *= 2 
+
+    } 
+
+
+
+    return lists[0] 
+
+} 
+</code></pre><p><img src=images/2023-02-08%2019_06_20-.png alt=Image></p><p>Interestingly&mldr; The new “More efficient” code is actually slower than that of the previous code, let’s see if ChatGPT can correct this as well.</p><p>Rather nicely ChatGPT even remembers my initial prompt about writing comments to explain what’s going on as it writes the new code. The code is certainly of a much larger size than before, but beats the other two programs (and 99% of the other users) at a whopping 3ms runtime.</p><pre><code>/** 
+
+* Definition for singly-linked list. 
+
+* type ListNode struct { 
+
+*     Val int 
+
+*     Next *ListNode 
+
+* } 
+
+*/ 
+
+func mergeKLists(lists []*ListNode) *ListNode { 
+
+    // Check if the input lists is empty 
+
+    if len(lists) == 0 { 
+
+        return nil 
+
+    } 
+
+
+
+    // Helper function to merge two linked lists into one sorted list 
+
+    var mergeTwoLists func(*ListNode, *ListNode) *ListNode 
+
+    mergeTwoLists = func(l1 *ListNode, l2 *ListNode) *ListNode { 
+
+        // If either list is empty, return the non-empty list 
+
+        if l1 == nil { 
+
+            return l2 
+
+        } 
+
+        if l2 == nil { 
+
+            return l1 
+
+        } 
+
+
+
+        // Choose the node with the smaller value and recursively call 
+
+        // mergeTwoLists on the remaining nodes 
+
+        if l1.Val &lt; l2.Val { 
+
+            l1.Next = mergeTwoLists(l1.Next, l2) 
+
+            return l1 
+
+        } else { 
+
+            l2.Next = mergeTwoLists(l1, l2.Next) 
+
+            return l2 
+
+        } 
+
+    } 
+
+
+
+    // Repeat the merging process until there's only one list left 
+
+    interval := 1 
+
+    for interval &lt; len(lists) { 
+
+        for i := 0; i &lt; len(lists) - interval; i += interval * 2 { 
+
+            lists[i] = mergeTwoLists(lists[i], lists[i + interval]) 
+
+        } 
+
+        interval *= 2 
+
+    } 
+
+
+
+    return lists[0] 
+
+}
+</code></pre><p><img src=images/2023-02-08%2019_12_33-.png alt=Image></p><p>But now let’s throw another curveball&mldr; I’ve decided I no longer like Go and want to give, lets say Python (a weakly typed language with a vastly different syntax to Go) a try.</p><p><img src=images/2023-02-08%2019_17_25-Hello%20Chat%20Request..png alt=Image></p><p>And we hit our first roadblock, a syntax error let&rsquo;s see if ChatGPT can fix it by itself.</p><p><img src=images/2023-02-08%2019_19_08-.png alt=Image></p><p><img src=images/2023-02-08%2019_21_05-Hello%20Chat%20Request..png alt=Image></p><p>The error persists, so I provide a more specific error message in my prompt. ChatGPT then makes the assumption I’m using Python3, so I need to correct it. After a polite reminder that we&rsquo;re using Python2 it provides me with the following:</p><p><img src=images/2023-02-08%2019_24_42-Hello%20Chat%20Request..png alt=Image></p><pre><code># Definition for singly-linked list. 
+
+class ListNode(object): 
+
+    def __init__(self, val=0, next=None): 
+
+        self.val = val 
+
+        self.next = next 
+
+        
+
+class Solution(object): 
+
+    def mergeKLists(self, lists): 
+
+        # Check if the input lists is empty 
+
+        if not lists: 
+
+            return None 
+
+
+
+        # Create a priority queue to store the heads of each list 
+
+        queue = [] 
+
+        for node in lists: 
+
+            if node: 
+
+                queue.append(node) 
+
+
+
+        # Create a dummy node as the head of the result list 
+
+        dummy = ListNode() 
+
+        tail = dummy 
+
+
+
+        # Pop the smallest node from the priority queue and add it to the result list 
+
+        while queue: 
+
+            node = min(queue, key=lambda x: x.val) 
+
+            queue.remove(node) 
+
+            tail.next = node 
+
+            tail = tail.next 
+
+            if node.next: 
+
+                queue.append(node.next) 
+
+
+
+        return dummy.next 
+</code></pre><p><img src=images/2023-02-08%2019_25_54-Merge%20k%20Sorted%20Lists%20-%20LeetCode.png alt=Image></p><p>Success! This time it runs&mldr; albiet rather slowly at over 4600ms. Let’s try and squeeze some efficiency out of it. This time ChatGPT calls on the heapq library.</p><pre><code>import heapq 
+
+
+
+# Definition for singly-linked list. 
+
+class ListNode(object): 
+
+    def __init__(self, val=0, next=None): 
+
+        self.val = val 
+
+        self.next = next 
+
+        
+
+class Solution(object): 
+
+    def mergeKLists(self, lists): 
+
+        # Check if the input lists is empty 
+
+        if not lists: 
+
+            return None 
+
+
+
+        # Create a priority queue to store the heads of each list 
+
+        queue = [] 
+
+        for node in lists: 
+
+            if node: 
+
+                heapq.heappush(queue, (node.val, node)) 
+
+
+
+        # Create a dummy node as the head of the result list 
+
+        dummy = ListNode() 
+
+        tail = dummy 
+
+
+
+        # Pop the smallest node from the priority queue and add it to the result list 
+
+        while queue: 
+
+            _, node = heapq.heappop(queue) 
+
+            tail.next = node 
+
+            tail = tail.next 
+
+            if node.next: 
+
+                heapq.heappush(queue, (node.next.val, node.next)) 
+
+
+
+        return dummy.next 
+</code></pre><p><img src=images/2023-02-08%2019_28_13-.png alt=Image></p><p>The code hits a runtime of 27ms, massively beating out the previous runtime of over 4600ms.</p><p>Truly incredible, but of course programming is more than just solving interview questions. Rest assured that while ChatGPT can knock socks off with tasks like this, ultimately there needs to be someone who understands what is going on to guide the Ai, and to know what needs to be done and where. We won&rsquo;t all be on the dole just yet!</p><p><strong>And lastly, while I did use LeetCode for this, I would never recommend using ChatGPT on Leetcode for anything other than curiosity and experimenting. Ultimately the point of LeetCode is to learn - You&rsquo;ll not only be cheating the leaderboards, but yourself of learning oppurtunities if you chose to use ChatGPT for easy answers. You can’t bring ChatGPT into an in-person coding interview or an airgapped, secure work environment, so best hone those skills the old fashioned way!</strong></p></div></div><div id=post-footer class="post-footer main-content-wrap"><div class=post-actions-wrap><nav><ul class="post-actions post-action-nav"><li class=post-action><a class="post-action-btn btn btn--default tooltip--top" href=/posts/nightmare-scenario/ data-tooltip="Blog: Forced To Provide Your PINs & Tech: A Modern Day Nightmare Scenario" aria-label=": Blog: Forced To Provide Your PINs & Tech: A Modern Day Nightmare Scenario"><i class="fa fa-angle-left"></i>
+<span class="hide-xs hide-sm text-small icon-ml"></span></a></li><li class=post-action><a class="post-action-btn btn btn--default tooltip--top" href=/posts/ai-research-1/images/ data-tooltip="Blog: Fun with ChatGPT: Explanations" aria-label=": Blog: Fun with ChatGPT: Explanations"><span class="hide-xs hide-sm text-small icon-mr"></span>
+<i class="fa fa-angle-right"></i></a></li></ul></nav><ul class="post-actions post-action-share"><li class="post-action hide-lg hide-md hide-sm"><a class="post-action-btn btn btn--default btn-open-shareoptions" href=#btn-open-shareoptions aria-label><i class="fa fa-share-alt" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://www.facebook.com/sharer/sharer.php?u=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-facebook-square" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://twitter.com/intent/tweet?text=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-twitter" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://www.linkedin.com/sharing/share-offsite/?url=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-linkedin" aria-hidden=true></i></a></li><li class=post-action><a class="post-action-btn btn btn--default" href=#top aria-label><i class="fa fa-arrow-up" aria-hidden=true></i></a></li></ul></div></div></article><footer id=footer class=main-content-wrap><span class=copyrights>&copy; 2023 Thomas Davey-Spence.</span></footer></div><div id=bottom-bar class=post-bottom-bar data-behavior=1><div class=post-actions-wrap><nav><ul class="post-actions post-action-nav"><li class=post-action><a class="post-action-btn btn btn--default tooltip--top" href=/posts/nightmare-scenario/ data-tooltip="Blog: Forced To Provide Your PINs & Tech: A Modern Day Nightmare Scenario" aria-label=": Blog: Forced To Provide Your PINs & Tech: A Modern Day Nightmare Scenario"><i class="fa fa-angle-left"></i>
+<span class="hide-xs hide-sm text-small icon-ml"></span></a></li><li class=post-action><a class="post-action-btn btn btn--default tooltip--top" href=/posts/ai-research-1/images/ data-tooltip="Blog: Fun with ChatGPT: Explanations" aria-label=": Blog: Fun with ChatGPT: Explanations"><span class="hide-xs hide-sm text-small icon-mr"></span>
+<i class="fa fa-angle-right"></i></a></li></ul></nav><ul class="post-actions post-action-share"><li class="post-action hide-lg hide-md hide-sm"><a class="post-action-btn btn btn--default btn-open-shareoptions" href=#btn-open-shareoptions aria-label><i class="fa fa-share-alt" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://www.facebook.com/sharer/sharer.php?u=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-facebook-square" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://twitter.com/intent/tweet?text=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-twitter" aria-hidden=true></i></a></li><li class="post-action hide-xs"><a class="post-action-btn btn btn--default" target=new href="https://www.linkedin.com/sharing/share-offsite/?url=https://thomas-davey-sec.com/posts/ai-research-2/" title aria-label><i class="fab fa-linkedin" aria-hidden=true></i></a></li><li class=post-action><a class="post-action-btn btn btn--default" href=#top aria-label><i class="fa fa-arrow-up" aria-hidden=true></i></a></li></ul></div></div><div id=share-options-bar class=share-options-bar data-behavior=1><i id=btn-close-shareoptions class="fa fa-times"></i><ul class=share-options><li class=share-option><a class=share-option-btn target=new href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthomas-davey-sec.com%2Fposts%2Fai-research-2%2F" aria-label><i class="fab fa-facebook-square" aria-hidden=true></i><span></span></a></li><li class=share-option><a class=share-option-btn target=new href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fthomas-davey-sec.com%2Fposts%2Fai-research-2%2F" aria-label><i class="fab fa-twitter" aria-hidden=true></i><span></span></a></li><li class=share-option><a class=share-option-btn target=new href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fthomas-davey-sec.com%2Fposts%2Fai-research-2%2F" aria-label><i class="fab fa-linkedin" aria-hidden=true></i><span></span></a></li></ul></div><div id=share-options-mask class=share-options-mask></div></div><div id=about><div id=about-card><div id=about-btn-close><i class="fa fa-times"></i></div><img id=about-card-picture src=https://thomas-davey-sec.com/images/20220917_165007.jpg alt><h4 id=about-card-name>Thomas Davey-Spence</h4><div id=about-card-bio>Software engineer, costume maker & general annoyance.</div><div id=about-card-job><i class="fa fa-briefcase"></i><br>Cloud & Software Engineer working in Cyber Security</div><div id=about-card-location><i class="fa fa-map-marker-alt"></i><br>Midlands, United Kingdom</div></div></div><div id=cover style=background-image:url(https://thomas-davey-sec.com/images/20230204_150833_2.jpg)></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://thomas-davey-sec.com/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js></script>
+<script>$(document).ready(function(){hljs.configure({classPrefix:"",useBR:!1}),$("pre.code-highlight > code, pre > code").each(function(e,t){$(this).hasClass("codeblock")||$(this).addClass("codeblock"),hljs.highlightBlock(t)})})</script></body></html>
